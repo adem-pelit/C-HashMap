@@ -9,5 +9,37 @@ sdfsdf
 ## struct HashMap
 sdfsdf
 ## List* CreateList()
+
 ## del()
 
+## DelList()
+
+## NODE* Add()
+
+## int dolas()
+
+## NODE* find()
+
+## HashMap* CreateHashMap()
+
+## int hashing()
+
+## int add()
+
+## List* HashMapToList()
+
+## HashMap* ListToHashMap()
+
+## HashMap* rehash()
+
+## NODE* get()
+
+## int Del()
+
+## DestroyHM
+
+## int lengthHM()
+
+## int UsedList()
+
+## void Dolas()
