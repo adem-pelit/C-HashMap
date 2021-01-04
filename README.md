@@ -13,17 +13,17 @@ Creates a List and returns.
 ## del()
 Deletes data by a key that given as a parameter.
 ## DelList()
-Deletes List and every NODE in it
+Deletes List that given as a parameter and every NODE in this List.
 ## NODE* Add()
-
+Adds a NODE with given key and data as parameters.
 ## int dolas()
-
+This function can be used for wander the list. Every iteration, it changes gez NODE pointer as gez's next NODE's point if ne
 ## NODE* find()
-
+Finds data by a key that given as a parameter.
 ## HashMap* CreateHashMap()
-
+Creates a HashMap and returns it.
 ## int hashing()
-
+Calculates hash code by given size and key.
 ## int add()
 
 ## List* HashMapToList()
