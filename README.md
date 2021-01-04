@@ -19,27 +19,28 @@ Adds a NODE with given key and data as parameters.
 ## int dolas()
 This function can be used for wander the list. Every iteration, it changes gez NODE pointer as gez's next NODE's point if ne
 ## NODE* find()
-Finds data by a key that given as a parameter.
+Finds data by the key that given as a parameter.
 ## HashMap* CreateHashMap()
 Creates a HashMap and returns it.
 ## int hashing()
-Calculates hash code by given size and key.
+Calculates hash code by key and given size.
 ## int add()
-
+Adds given NODE into given HashMap.
 ## List* HashMapToList()
-
+Casts given HashMap to a List and returns the list
 ## HashMap* ListToHashMap()
-
+Casts given List to a HashMap and returns the HashMap.
 ## HashMap* rehash()
-
+Changes number of elements in given Hashmap and returns the Hashmap 
 ## NODE* get()
-
+Returns NODE by the key that given as a parameter.
 ## int Del()
-
+Deletes the NODE by the key that given as a parameter.
 ## DestroyHM
-
+Destroys given HashMap.
 ## int lengthHM()
-
+Returns number of elements in HashMap that given as a parameter.
 ## int UsedList()
-
+Returns number of list that is not empty in Given HashMap. 
 ## void Dolas()
+This is the function that execute given function for every NODE in given HashMap. The function that given as a parameter have to return void and get one parameter thats type is NODE.
